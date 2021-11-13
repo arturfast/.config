@@ -1,0 +1,27 @@
+q
+quit
+set start_view=tree
+set start_view=browser
+set start_view
+set st:q
+set
+start_view browser
+a ~/music/mostviewed
+a ~/music
+add /home/artur/music
+filter 
+delete
+d
+bind -f common a player-pause
+bind -f common c player-pause
+bind -f common space player-pause 
+add /home/artur/music/Hoist The Colours & What Shall We Die For _ EPIC VERSION (feat. @Black Gryph0n)-GQt2mYCZYnw.mp3
+add /home/artur/music/
+add /home/artur/music/*
+add music/
+add ~/music/
+add ~/music/jbg3/
+shell 
+live-filter
+add ~/music
+add ~/music/NIVIRO - The Labyrinth [NCS Release]-4S0shEqJ8Vc.mp3

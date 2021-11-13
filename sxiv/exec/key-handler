@@ -1,0 +1,17 @@
+#!/bin/bash
+
+while read file
+do
+        case "$1" in
+        "w")
+                mv "$file" /home/artur/backup/lenox/images/ ;; 
+        
+	"d")
+                mv "$file" /home/artur/.trash ;;
+
+	"e")
+                mv "$file" /home/artur/porn/images ;;
+	"c")
+                mv "$file" /home/artur/backup/saved ;; 
+	esac
+done
